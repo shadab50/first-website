@@ -1,0 +1,121 @@
+/**{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+.article{
+    color:blueviolet;
+    font-size: xx-large;
+}
+.secondheading{
+    color: chartreuse;
+}
+.secondheading:hover{
+    color: red;
+    background-color: black;
+}
+input:focus{
+    background-color: brown;
+    color: antiquewhite;
+}
+p::first-letter{
+    font-size: 60px;
+    color: deeppink;
+}
+div::first-line{
+    font-size: 60px;
+    color:chocolate;
+}*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*.box1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border: 10px solid violet;
+    margin: 5px;
+    float: left;
+    display:inline-block
+    
+}
+.box2{
+    background-color:pink;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border: 10px solid brown;
+    margin: 5px;
+    float: left;
+    display:inline-block;
+    
+}
+.box3{
+    background-color:cadetblue;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border: 10px solid green;
+    margin: 5px;
+    float: left;
+    display:inline-block;
+    
+}
+.box1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+       
+
+    
+}
+.box2{
+    background-color: brown;
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    position: ;
+}
+/*.box2{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    clear: both;
+}
+.box3{
+    background-color: brown;
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    float: right;
+}
+p{
+    color: crimson;
+    font-weight: 30px;
+    font-size: large;
+    clear: both;
+    
+}*/
+ul{
+    background-color: black;
+    text-align: justify;
+    color: chartreuse;
+    position: fixed;
+    left: 225px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+    
+}
